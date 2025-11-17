@@ -2,6 +2,12 @@
 
 The Arturo track uses the [Unitt unit-testing package][unitt] for all exercise tests.
 This package provides a testng framework supporting both modern RSpec-inspired syntax and legacy XUnit-inspired syntax.
+
+If you have not yet done so, **you must first install Unitt 3** by running 
+```sh
+arturo --package install unitt 3.0.0
+```
+
 Arturo will automatically download and install this package when you run the tests, requiring minimal setup.
 
 To begin running tests, you can use `arturo tester.art` or `exercism test` within the exercise folder.
